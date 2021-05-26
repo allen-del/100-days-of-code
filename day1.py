@@ -1,4 +1,3 @@
-
 #Band Name Generator
 
 city_name=input("What's the name of the City you grew up in? \n ")
