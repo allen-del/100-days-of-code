@@ -7,4 +7,4 @@ num_people = int(input("How many people to split the bill between? "))
 total_as_float=float(total_amount)
 percent_value=int(percent_tip)/100
 amount_per_person= round(((total_as_float+(percent_value*total_as_float))/num_people),2)
-print(f"The amount each person has to pay is $ {amount_per_person}")
+print("The amount each person has to pay is $ {:0.2f}".format(amount_per_person))
