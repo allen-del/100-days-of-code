@@ -58,7 +58,6 @@ elif computer_choice == 1:
 elif computer_choice == 2:
     print(scissors)
 
-#Choice Comparing
 
 if computer_choice==choice:
     print("Draw!")
