@@ -61,7 +61,7 @@ elif computer_choice == 2:
 #Choice Comparing
 
 if computer_choice==choice:
-    print("Try Again!")
+    print("Draw!")
 elif computer_choice == 2 and choice==0:
     print("You Win!")
 
